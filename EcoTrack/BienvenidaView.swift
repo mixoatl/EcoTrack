@@ -38,9 +38,9 @@ struct BienvenidaView: View {
                 
                 Text("Calcula, rastrea y cambia")
                     .font(.system(size: 24))
-                    .fontWeight(.light)
+                    .fontWeight(.thin)
                     .foregroundColor(.black)
-                    .offset(x: 7, y: -220)
+                    .offset(x: 5, y: -220)
                 
                 Rectangle()
                     .foregroundColor(.clear)
@@ -51,7 +51,7 @@ struct BienvenidaView: View {
                             .aspectRatio(contentMode: .fill)
                             .frame(width: 360, height: 250)
                     )
-                    .offset(x: 8, y: -120)
+                    .offset(x: 5, y: -120)
                 
                 Button{
                     isPresented = true

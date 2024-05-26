@@ -10,6 +10,8 @@
 		B256585C2C02EBA700B913F7 /* ButtonRounded.swift in Sources */ = {isa = PBXBuildFile; fileRef = B256585B2C02EBA700B913F7 /* ButtonRounded.swift */; };
 		B256585E2C02F48300B913F7 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B256585D2C02F48300B913F7 /* RegisterView.swift */; };
 		B25658602C0309D000B913F7 /* DatosUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B256585F2C0309D000B913F7 /* DatosUser.swift */; };
+		B279FA312C039C5D00C534C4 /* TrackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B279FA302C039C5D00C534C4 /* TrackView.swift */; };
+		B279FA332C03B59400C534C4 /* TipsEcoFriendlyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B279FA322C03B59400C534C4 /* TipsEcoFriendlyView.swift */; };
 		B27D0DF62BFD77E7000D7915 /* EcoTrackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27D0DF52BFD77E7000D7915 /* EcoTrackApp.swift */; };
 		B27D0DF82BFD77E7000D7915 /* BienvenidaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27D0DF72BFD77E7000D7915 /* BienvenidaView.swift */; };
 		B27D0DFA2BFD77E9000D7915 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B27D0DF92BFD77E9000D7915 /* Assets.xcassets */; };
@@ -42,6 +44,8 @@
 		B256585B2C02EBA700B913F7 /* ButtonRounded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonRounded.swift; sourceTree = "<group>"; };
 		B256585D2C02F48300B913F7 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		B256585F2C0309D000B913F7 /* DatosUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatosUser.swift; sourceTree = "<group>"; };
+		B279FA302C039C5D00C534C4 /* TrackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackView.swift; sourceTree = "<group>"; };
+		B279FA322C03B59400C534C4 /* TipsEcoFriendlyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsEcoFriendlyView.swift; sourceTree = "<group>"; };
 		B27D0DF22BFD77E7000D7915 /* EcoTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcoTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B27D0DF52BFD77E7000D7915 /* EcoTrackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoTrackApp.swift; sourceTree = "<group>"; };
 		B27D0DF72BFD77E7000D7915 /* BienvenidaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BienvenidaView.swift; sourceTree = "<group>"; };
@@ -114,6 +118,8 @@
 				B256585B2C02EBA700B913F7 /* ButtonRounded.swift */,
 				B256585D2C02F48300B913F7 /* RegisterView.swift */,
 				B256585F2C0309D000B913F7 /* DatosUser.swift */,
+				B279FA302C039C5D00C534C4 /* TrackView.swift */,
+				B279FA322C03B59400C534C4 /* TipsEcoFriendlyView.swift */,
 			);
 			path = EcoTrack;
 			sourceTree = "<group>";
@@ -272,9 +278,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2C712222C029A320015273D /* LoginView.swift in Sources */,
+				B279FA332C03B59400C534C4 /* TipsEcoFriendlyView.swift in Sources */,
 				B256585C2C02EBA700B913F7 /* ButtonRounded.swift in Sources */,
 				B27D0DF82BFD77E7000D7915 /* BienvenidaView.swift in Sources */,
 				B256585E2C02F48300B913F7 /* RegisterView.swift in Sources */,
+				B279FA312C039C5D00C534C4 /* TrackView.swift in Sources */,
 				B25658602C0309D000B913F7 /* DatosUser.swift in Sources */,
 				B2C712262C02AACE0015273D /* Prueba.swift in Sources */,
 				B27D0DF62BFD77E7000D7915 /* EcoTrackApp.swift in Sources */,
