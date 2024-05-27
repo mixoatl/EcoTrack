@@ -11,51 +11,54 @@ struct TrackView: View {
     @State private var transportationKm: String = ""
     @State private var energyConsumption: String = ""
     @State private var wasteGeneration: String = ""
-    
     @State private var reduceDrivingKm: String = ""
     @State private var lowerElectricityConsumption: String = ""
     
+    @State private var selectedTab = 2
+    
     var body: some View {
         NavigationView {
-            VStack {
-                Text("ecotrack")
-                    .font(.largeTitle.bold())
-                    .foregroundColor(.black)
-                
-                Text("Mi huella de carbono")
-                    .font(.title2.bold())
-                
-                ScrollView {
-                    VStack(spacing: 20) {
-                        SectionView(
-                            title: "Datos de consumo",
-                            fields: [
-                                ("Transporte (km):", $transportationKm),
-                                ("Consumo de energia (kWtts):", $energyConsumption),
-                                ("Producción de residuos (kg):", $wasteGeneration)
-                            ],
-                            buttonText: "Guardar Datos"
-                        ) {
-                            print("Datos guardados")
+            ScrollView {
+                VStack {
+                    Text("ecotrack")
+                        .font(.largeTitle.bold())
+                        .foregroundColor(.black)
+                    
+                    Text("Mi huella de carbono")
+                        .font(.title2.bold())
+                    
+                    ScrollView {
+                        VStack(spacing: 20) {
+                            SectionView(
+                                title: "Datos de consumo",
+                                fields: [
+                                    ("Transporte (km):", $transportationKm),
+                                    ("Consumo de energia (kWtts):", $energyConsumption),
+                                    ("Producción de residuos (kg):", $wasteGeneration)
+                                ],
+                                buttonText: "Guardar Datos"
+                            ) {
+                                print("Datos guardados")
+                            }
+                            .padding(.top, 5)
+                            
+                            SectionView(
+                                title: "Fijar metas",
+                                fields: [
+                                    ("Reduzca los kilómetros recorridos:", $reduceDrivingKm),
+                                    ("Reducir el consumo de electricidad en:", $lowerElectricityConsumption)
+                                ],
+                                buttonText: "Guardar Metas"
+                            ) {
+                                print("Metas guardadas")
+                            }
                         }
-                        .padding(.top, 5)
-                        
-                        SectionView(
-                            title: "Fijar metas",
-                            fields: [
-                                ("Reduzca los kilómetros recorridos:", $reduceDrivingKm),
-                                ("Reducir el consumo de electricidad en:", $lowerElectricityConsumption)
-                            ],
-                            buttonText: "Guardar Metas"
-                        ) {
-                            print("Metas guardadas")
-                        }
+                        .padding(.horizontal, 20)
                     }
-                    .padding(.horizontal, 20)
                 }
+                .padding()
+                .navigationBarHidden(true)
             }
-            .padding()
-            .navigationBarHidden(true)
         }
     }
 }
@@ -105,4 +108,3 @@ struct SectionView: View {
 #Preview {
     TrackView()
 }
-

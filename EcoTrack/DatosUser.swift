@@ -120,7 +120,7 @@ struct DatosUser: View {
             }
             
             VStack(spacing: 16){
-                NavigationLink(destination: Prueba()) {
+                NavigationLink(destination: HomeView()) {
                     Text("Finalizar")
                         .modifier(ButtonRounded(color: Color(red: 0.149, green: 0.2196, blue: 0.1608)))
                         .padding(.top, 10)

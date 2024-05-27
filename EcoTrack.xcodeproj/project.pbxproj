@@ -21,6 +21,8 @@
 		B2C712222C029A320015273D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C712212C029A320015273D /* LoginView.swift */; };
 		B2C712262C02AACE0015273D /* Prueba.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C712252C02AACE0015273D /* Prueba.swift */; };
 		B2C712282C02C1510015273D /* TxtView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C712272C02C1510015273D /* TxtView.swift */; };
+		B2FA56B32C03EB910002541E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FA56B22C03EB910002541E /* HomeView.swift */; };
+		B2FA56B52C03EF990002541E /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FA56B42C03EF990002541E /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,8 @@
 		B2C712212C029A320015273D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		B2C712252C02AACE0015273D /* Prueba.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prueba.swift; sourceTree = "<group>"; };
 		B2C712272C02C1510015273D /* TxtView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TxtView.swift; sourceTree = "<group>"; };
+		B2FA56B22C03EB910002541E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B2FA56B42C03EF990002541E /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +124,8 @@
 				B256585F2C0309D000B913F7 /* DatosUser.swift */,
 				B279FA302C039C5D00C534C4 /* TrackView.swift */,
 				B279FA322C03B59400C534C4 /* TipsEcoFriendlyView.swift */,
+				B2FA56B22C03EB910002541E /* HomeView.swift */,
+				B2FA56B42C03EF990002541E /* ProfileView.swift */,
 			);
 			path = EcoTrack;
 			sourceTree = "<group>";
@@ -281,7 +287,9 @@
 				B279FA332C03B59400C534C4 /* TipsEcoFriendlyView.swift in Sources */,
 				B256585C2C02EBA700B913F7 /* ButtonRounded.swift in Sources */,
 				B27D0DF82BFD77E7000D7915 /* BienvenidaView.swift in Sources */,
+				B2FA56B52C03EF990002541E /* ProfileView.swift in Sources */,
 				B256585E2C02F48300B913F7 /* RegisterView.swift in Sources */,
+				B2FA56B32C03EB910002541E /* HomeView.swift in Sources */,
 				B279FA312C039C5D00C534C4 /* TrackView.swift in Sources */,
 				B25658602C0309D000B913F7 /* DatosUser.swift in Sources */,
 				B2C712262C02AACE0015273D /* Prueba.swift in Sources */,

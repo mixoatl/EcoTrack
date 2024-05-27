@@ -100,7 +100,7 @@ struct LoginView: View {
             }
             
             VStack(spacing: 16){
-                NavigationLink(destination: TipsEcoFriendlyView()) {
+                NavigationLink(destination: HomeView()) {
                     Text("Iniciar Sesión     →")
                         .modifier(ButtonRounded(color: Color(red: 0.3098, green: 0.2902, blue: 0.1333)))
                 }

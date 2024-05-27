@@ -11,54 +11,6 @@ struct TipsEcoFriendlyView: View {
     @State private var selectedTab = 4
     
     var body: some View {
-        TabView(selection: $selectedTab) {
-            Text("Mundo")
-                .tabItem {
-                    Image(systemName: "globe")
-                    Text("Inicio")
-                }
-                .tag(0)
-            
-            HStack{
-                Text("ecostats")
-                    .font(.largeTitle.bold())
-                    .foregroundColor(.black)
-                    .padding()
-                Text("Espera más novedades pronto")
-                
-            }
-            .tabItem {
-                Image(systemName: "chart.bar")
-                Text("Estadisticas")
-            }
-            .tag(1)
-            
-            TrackView()
-                .tabItem {
-                    Image(systemName: "plus.circle.fill")
-                }
-                .tag(2)
-            
-            Text("Editar")
-                .tabItem {
-                    Image(systemName: "pencil")
-                    Text("Perfil")
-                }
-                .tag(3)
-            
-            TipsView()
-                .tabItem {
-                    Image(systemName: "leaf.fill")
-                    Text("Tips")
-                }
-                .tag(4)
-        }
-        .edgesIgnoringSafeArea(.top)
-    }
-}
-
-struct TipsView: View {
-    var body: some View {
         NavigationView {
             VStack {
                 HStack {
