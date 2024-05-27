@@ -19,7 +19,6 @@
 		B27D0E112BFD77EA000D7915 /* EcoTrackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27D0E102BFD77EA000D7915 /* EcoTrackUITests.swift */; };
 		B27D0E132BFD77EA000D7915 /* EcoTrackUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27D0E122BFD77EA000D7915 /* EcoTrackUITestsLaunchTests.swift */; };
 		B2C712222C029A320015273D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C712212C029A320015273D /* LoginView.swift */; };
-		B2C712262C02AACE0015273D /* Prueba.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C712252C02AACE0015273D /* Prueba.swift */; };
 		B2C712282C02C1510015273D /* TxtView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C712272C02C1510015273D /* TxtView.swift */; };
 		B2FA56B32C03EB910002541E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FA56B22C03EB910002541E /* HomeView.swift */; };
 		B2FA56B52C03EF990002541E /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FA56B42C03EF990002541E /* ProfileView.swift */; };
@@ -58,7 +57,6 @@
 		B27D0E102BFD77EA000D7915 /* EcoTrackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoTrackUITests.swift; sourceTree = "<group>"; };
 		B27D0E122BFD77EA000D7915 /* EcoTrackUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoTrackUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B2C712212C029A320015273D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		B2C712252C02AACE0015273D /* Prueba.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prueba.swift; sourceTree = "<group>"; };
 		B2C712272C02C1510015273D /* TxtView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TxtView.swift; sourceTree = "<group>"; };
 		B2FA56B22C03EB910002541E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		B2FA56B42C03EF990002541E /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
@@ -115,9 +113,6 @@
 				B27D0DF52BFD77E7000D7915 /* EcoTrackApp.swift */,
 				B27D0DF72BFD77E7000D7915 /* BienvenidaView.swift */,
 				B2C712212C029A320015273D /* LoginView.swift */,
-				B27D0DF92BFD77E9000D7915 /* Assets.xcassets */,
-				B2EEFF4C2C0160AD00C045D2 /* Preview Content */,
-				B2C712252C02AACE0015273D /* Prueba.swift */,
 				B2C712272C02C1510015273D /* TxtView.swift */,
 				B256585B2C02EBA700B913F7 /* ButtonRounded.swift */,
 				B256585D2C02F48300B913F7 /* RegisterView.swift */,
@@ -126,6 +121,8 @@
 				B279FA322C03B59400C534C4 /* TipsEcoFriendlyView.swift */,
 				B2FA56B22C03EB910002541E /* HomeView.swift */,
 				B2FA56B42C03EF990002541E /* ProfileView.swift */,
+				B27D0DF92BFD77E9000D7915 /* Assets.xcassets */,
+				B2EEFF4C2C0160AD00C045D2 /* Preview Content */,
 			);
 			path = EcoTrack;
 			sourceTree = "<group>";
@@ -292,7 +289,6 @@
 				B2FA56B32C03EB910002541E /* HomeView.swift in Sources */,
 				B279FA312C039C5D00C534C4 /* TrackView.swift in Sources */,
 				B25658602C0309D000B913F7 /* DatosUser.swift in Sources */,
-				B2C712262C02AACE0015273D /* Prueba.swift in Sources */,
 				B27D0DF62BFD77E7000D7915 /* EcoTrackApp.swift in Sources */,
 				B2C712282C02C1510015273D /* TxtView.swift in Sources */,
 			);
